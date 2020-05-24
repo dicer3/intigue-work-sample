@@ -1,0 +1,58 @@
+.own-card {
+  width: 40%;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: inline-block;
+  .overlap-card-images {
+    position: relative;
+    .profileImage {
+      width: 100%;
+    }
+
+    .cardMiddle {
+      position: absolute;
+      width: 128px;
+      height: 128px;
+      top: 200px;
+      border-radius: 50%;
+      margin: 0 150px;
+      border: 3px solid #ffffff;
+    }
+  }
+  .own-card-content {
+    & > * {
+      margin-bottom: 10px;
+    }
+    .own-card-title {
+      font-weight: 300;
+      font-size: 23px;
+    }
+    .own-card-footer {
+      display: flex;
+      justify-content: space-between;
+      & > div > * {
+        margin-left: 5px;
+      }
+      .followButton {
+        background: linear-gradient(360deg, #ba54f5 0%, #e14eca 100%);
+        border-radius: 6px;
+        border: none;
+        color: #ffffff;
+        padding: 10px;
+      }
+    }
+    padding: 10px;
+    margin: 30px 10px 0 0;
+    border-radius: 5px 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .own-card-footer {
+    flex-direction: column;
+    & > * {
+      margin-bottom: 15px;
+    }
+  }
+}

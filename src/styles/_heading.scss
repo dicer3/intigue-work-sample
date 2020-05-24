@@ -1,0 +1,23 @@
+.heading {
+  margin-top: 100px;
+  .first-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 150px;
+    .inner-box {
+      div {
+        margin-top: 35px;
+      }
+      img:first-child {
+        margin: 0;
+      }
+      img {
+        margin-left: 10px;
+      }
+      .green-line {
+        color: #00f2c3;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+.extended-third-line {
+  border-top: 1px solid #00f2c3;
+  width: 40px;
+  margin: 0;
+}
+.feature-list > * {
+  margin-bottom: 40px;
+}
+
+.collage {
+  position: relative;
+}
+.outer-box {
+  width: 70%;
+  text-align: center;
+}
+.success-box {
+  background: #fd5d93;
+  position: absolute;
+  width: 140px;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 20px;
+  display: inline-block;
+  z-index: 10;
+  top: -30px;
+  text-align: center;
+}
+.customers-box {
+  @extend.success-box;
+  background: #1d8cf8;
+  width: 200px;
+  z-index: 10;
+  top: 200px;
+  text-align: center;
+  left: -20px;
+}
+.outer-buissness-box {
+  width: 100%;
+  text-align: right;
+  .buisness-box {
+    background: #344675;
+    display: inline-block;
+    margin: 20px 120px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    border-radius: 7px;
+  }
+}
+.percent {
+  font-weight: 300;
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+.feature-image {
+  z-index: 1;
+}

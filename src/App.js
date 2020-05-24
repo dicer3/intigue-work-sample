@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Fragment } from "react";
+import Navbar from "./components/Navbar";
+import Heading from "./components/Heading";
+import Achivements from "./components/Achivements";
+import Benefits from "./components/Benefits";
+import Features from "./components/Features";
+import Performance from "./components/Performance";
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
+import "./App.scss";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => (
+  <Fragment>
+    <div className='App'>
+      <div className='container'>
+        <Navbar />
+        <Heading />
+        <Achivements />
+        <Benefits />
+        <Features />
+        <Performance />
+        <Cards />
+      </div>
+      <Footer />
     </div>
-  );
-}
+  </Fragment>
+);
 
 export default App;

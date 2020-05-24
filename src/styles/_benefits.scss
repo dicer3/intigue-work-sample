@@ -1,0 +1,24 @@
+.benefits {
+  text-align: center;
+  & > .row > .col > * {
+    margin-bottom: 20px;
+  }
+
+  .first-line {
+    border-top: 1px solid #e14eca;
+  }
+  .second-line {
+    border-top: 1px solid #ff8d72;
+  }
+  .third-line {
+    border-top: 1px solid #00f2c3;
+  }
+  .des-text {
+    color: #9a9a9a;
+    max-width: 205px;
+    margin: 0 auto;
+  }
+  h1 {
+    margin-bottom: 60px;
+  }
+}

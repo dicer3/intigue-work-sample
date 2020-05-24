@@ -1,0 +1,38 @@
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./styles/navbar";
+@import "./styles/heading";
+@import "./styles/achivements";
+@import "./styles/benefits";
+@import "./styles/features";
+@import "./styles/performance";
+@import "./styles/cards";
+@import "./styles/footer";
+
+$body-bg: #00003f;
+
+.App {
+  background-color: $body-bg;
+  height: 470vh;
+  width: 100vw;
+  margin: 0;
+  color: #ffffff;
+  .container > * {
+    margin-bottom: 100px;
+  }
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  margin: 0 auto;
+  width: 30px;
+  padding: 0;
+}
+
+@media screen and (max-width: 756px) {
+  .App {
+    height: 600vh;
+  }
+}

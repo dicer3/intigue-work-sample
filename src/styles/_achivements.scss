@@ -1,0 +1,42 @@
+.boxes-outer {
+  margin-top: 50px;
+}
+.boxes-outer > div {
+  color: #ffffff;
+  background: #1f2251;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  padding: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  & > div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.line-break {
+  display: block;
+  height: 25px;
+}
+.atom {
+  margin-left: 40px;
+  text-align: right;
+  .number-awards {
+    margin-bottom: 0;
+  }
+  .awards {
+    color: #9a9a9a;
+  }
+}
+
+.big-card {
+  background: #344675 !important;
+  margin-left: -15px;
+  padding: 30px !important;
+  position: absolute;
+  top: -20px;
+}
+
+.achivements-thoery > * {
+  margin-bottom: 30px;
+}
