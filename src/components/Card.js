@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import profileImage from "./images/Profile bg Image.png";
 import cardMiddle from "./images/Image.png";
 import dribble from "./images/Dribble.png";
@@ -7,7 +7,7 @@ import behance from "./images/behance.png";
 
 export default () => {
   return (
-    <div>
+    <Fragment>
       <div className='own-card'>
         <div className='overlap-card-images'>
           <img src={profileImage} className='profileImage' alt='' />
@@ -31,6 +31,6 @@ export default () => {
           </div>
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 };

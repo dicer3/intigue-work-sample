@@ -10,13 +10,14 @@
 @import "./styles/footer";
 
 $body-bg: #00003f;
+$default-color: #ffffff;
 
 .App {
   background-color: $body-bg;
-  height: 470vh;
+  height: 450vh;
   width: 100vw;
   margin: 0;
-  color: #ffffff;
+  color: $default-color;
   .container > * {
     margin-bottom: 100px;
   }
